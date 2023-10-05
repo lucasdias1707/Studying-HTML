@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário de Cadastro</title>
+</head>
+
+<body>
+  <form name="signup" onsubmit="alert('enviei o formulario')">
+    <!-- method="POST" encaminha os dados 
+         action="#" manda para o link o formulario 
+         target="_blank" abre em outra pagina a requisição ou o que for informado
+         autocomplete="off" desativado não traz os dados ao voltar a pagina, se tiver ativo quando voltar ele traz preenchido 
+         on... ele é evento
+         onsubmit="alert('enviei o formulario')" ele vai aparecer um alerta na tela ao apertar no submit-->
+    Nome: <input type="text" name="name" /><br>
+    Idade: <input type="number" name="age" /><br>
+    Senha: <input type="password" name="password" /><br>
+    <button type="submit">Enviar</button>
+  </form>
+</body>
+
+</html>
